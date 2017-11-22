@@ -15,7 +15,7 @@
 		6533B6301FC564B00036D203 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B62F1FC564B00036D203 /* main.m */; };
 		6533B63A1FC564B00036D203 /* desAVPlayerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B6391FC564B00036D203 /* desAVPlayerViewControllerTests.m */; };
 		6533B6451FC564B00036D203 /* desAVPlayerViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B6441FC564B00036D203 /* desAVPlayerViewControllerUITests.m */; };
-		6533B6591FC569B70036D203 /* AQPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B6581FC569B60036D203 /* AQPlayerView.m */; };
+		6533B65D1FC56ED60036D203 /* AQPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B65C1FC56ED60036D203 /* AQPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		6533B6401FC564B00036D203 /* desAVPlayerViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desAVPlayerViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6533B6441FC564B00036D203 /* desAVPlayerViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desAVPlayerViewControllerUITests.m; sourceTree = "<group>"; };
 		6533B6461FC564B00036D203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6533B6571FC569B60036D203 /* AQPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQPlayerView.h; sourceTree = "<group>"; };
-		6533B6581FC569B60036D203 /* AQPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQPlayerView.m; sourceTree = "<group>"; };
+		6533B65B1FC56ED60036D203 /* AQPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQPlayerView.h; sourceTree = "<group>"; };
+		6533B65C1FC56ED60036D203 /* AQPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		6533B61F1FC564B00036D203 /* desAVPlayerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				6533B6561FC569B60036D203 /* aQAVPlayer */,
+				6533B65A1FC56EBF0036D203 /* AQAVPlayer */,
 				6533B6201FC564B00036D203 /* AppDelegate.h */,
 				6533B6211FC564B00036D203 /* AppDelegate.m */,
 				6533B6231FC564B00036D203 /* ViewController.h */,
@@ -136,13 +136,13 @@
 			path = desAVPlayerViewControllerUITests;
 			sourceTree = "<group>";
 		};
-		6533B6561FC569B60036D203 /* aQAVPlayer */ = {
+		6533B65A1FC56EBF0036D203 /* AQAVPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				6533B6571FC569B60036D203 /* AQPlayerView.h */,
-				6533B6581FC569B60036D203 /* AQPlayerView.m */,
+				6533B65B1FC56ED60036D203 /* AQPlayerView.h */,
+				6533B65C1FC56ED60036D203 /* AQPlayerView.m */,
 			);
-			path = aQAVPlayer;
+			path = AQAVPlayer;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -281,7 +281,7 @@
 				6533B6251FC564B00036D203 /* ViewController.m in Sources */,
 				6533B6301FC564B00036D203 /* main.m in Sources */,
 				6533B6221FC564B00036D203 /* AppDelegate.m in Sources */,
-				6533B6591FC569B70036D203 /* AQPlayerView.m in Sources */,
+				6533B65D1FC56ED60036D203 /* AQPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
