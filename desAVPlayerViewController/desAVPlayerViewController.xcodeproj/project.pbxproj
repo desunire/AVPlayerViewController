@@ -15,6 +15,7 @@
 		6533B6301FC564B00036D203 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B62F1FC564B00036D203 /* main.m */; };
 		6533B63A1FC564B00036D203 /* desAVPlayerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B6391FC564B00036D203 /* desAVPlayerViewControllerTests.m */; };
 		6533B6451FC564B00036D203 /* desAVPlayerViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B6441FC564B00036D203 /* desAVPlayerViewControllerUITests.m */; };
+		6533B6551FC566A10036D203 /* AQPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B6541FC566A10036D203 /* AQPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6533B6401FC564B00036D203 /* desAVPlayerViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desAVPlayerViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6533B6441FC564B00036D203 /* desAVPlayerViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desAVPlayerViewControllerUITests.m; sourceTree = "<group>"; };
 		6533B6461FC564B00036D203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6533B6531FC566A10036D203 /* AQPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQPlayerView.h; sourceTree = "<group>"; };
+		6533B6541FC566A10036D203 /* AQPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 		6533B6521FC565420036D203 /* aQAVPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				6533B6531FC566A10036D203 /* AQPlayerView.h */,
+				6533B6541FC566A10036D203 /* AQPlayerView.m */,
 			);
 			path = aQAVPlayer;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				6533B6251FC564B00036D203 /* ViewController.m in Sources */,
 				6533B6301FC564B00036D203 /* main.m in Sources */,
 				6533B6221FC564B00036D203 /* AppDelegate.m in Sources */,
+				6533B6551FC566A10036D203 /* AQPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +445,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 287W86KSC6;
 				INFOPLIST_FILE = desAVPlayerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kl.desAVPlayerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,7 +460,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 287W86KSC6;
 				INFOPLIST_FILE = desAVPlayerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kl.desAVPlayerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
