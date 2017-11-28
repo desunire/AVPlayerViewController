@@ -16,6 +16,13 @@
 		6533B6C61FC5755A0036D203 /* AQAVPlayerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B6C51FC5755A0036D203 /* AQAVPlayerViewControllerTests.m */; };
 		6533B6D11FC5755A0036D203 /* AQAVPlayerViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B6D01FC5755A0036D203 /* AQAVPlayerViewControllerUITests.m */; };
 		6533B6E11FC5756D0036D203 /* AQPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533B6E01FC5756D0036D203 /* AQPlayerView.m */; };
+		656231A51FC6771A0027D030 /* UINavigationController+AQPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 656231A41FC6771A0027D030 /* UINavigationController+AQPlayerRotation.m */; };
+		656231A81FC6773D0027D030 /* UITabBarController+AQPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 656231A71FC6773D0027D030 /* UITabBarController+AQPlayerRotation.m */; };
+		656231AB1FC677630027D030 /* UIViewController+AQPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 656231AA1FC677630027D030 /* UIViewController+AQPlayerRotation.m */; };
+		656231AE1FC699720027D030 /* AQLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 656231AD1FC699720027D030 /* AQLoadingView.m */; };
+		656231B11FC699C90027D030 /* AQSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 656231B01FC699C90027D030 /* AQSlider.m */; };
+		656231B41FC6C8850027D030 /* AQPlayerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 656231B31FC6C8850027D030 /* AQPlayerMaskView.m */; };
+		656231B71FC6C8E70027D030 /* AQPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 656231B61FC6C8E70027D030 /* AQPlayer.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,19 @@
 		6533B6D21FC5755A0036D203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6533B6DF1FC5756D0036D203 /* AQPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQPlayerView.h; sourceTree = "<group>"; };
 		6533B6E01FC5756D0036D203 /* AQPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQPlayerView.m; sourceTree = "<group>"; };
+		656231A31FC6771A0027D030 /* UINavigationController+AQPlayerRotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AQPlayerRotation.h"; sourceTree = "<group>"; };
+		656231A41FC6771A0027D030 /* UINavigationController+AQPlayerRotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AQPlayerRotation.m"; sourceTree = "<group>"; };
+		656231A61FC6773D0027D030 /* UITabBarController+AQPlayerRotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+AQPlayerRotation.h"; sourceTree = "<group>"; };
+		656231A71FC6773D0027D030 /* UITabBarController+AQPlayerRotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+AQPlayerRotation.m"; sourceTree = "<group>"; };
+		656231A91FC677630027D030 /* UIViewController+AQPlayerRotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AQPlayerRotation.h"; sourceTree = "<group>"; };
+		656231AA1FC677630027D030 /* UIViewController+AQPlayerRotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AQPlayerRotation.m"; sourceTree = "<group>"; };
+		656231AC1FC699720027D030 /* AQLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQLoadingView.h; sourceTree = "<group>"; };
+		656231AD1FC699720027D030 /* AQLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQLoadingView.m; sourceTree = "<group>"; };
+		656231AF1FC699C90027D030 /* AQSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQSlider.h; sourceTree = "<group>"; };
+		656231B01FC699C90027D030 /* AQSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQSlider.m; sourceTree = "<group>"; };
+		656231B21FC6C8850027D030 /* AQPlayerMaskView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQPlayerMaskView.h; sourceTree = "<group>"; };
+		656231B31FC6C8850027D030 /* AQPlayerMaskView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQPlayerMaskView.m; sourceTree = "<group>"; };
+		656231B61FC6C8E70027D030 /* AQPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AQPlayer.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +161,30 @@
 			children = (
 				6533B6DF1FC5756D0036D203 /* AQPlayerView.h */,
 				6533B6E01FC5756D0036D203 /* AQPlayerView.m */,
+				656231A31FC6771A0027D030 /* UINavigationController+AQPlayerRotation.h */,
+				656231A41FC6771A0027D030 /* UINavigationController+AQPlayerRotation.m */,
+				656231A61FC6773D0027D030 /* UITabBarController+AQPlayerRotation.h */,
+				656231A71FC6773D0027D030 /* UITabBarController+AQPlayerRotation.m */,
+				656231A91FC677630027D030 /* UIViewController+AQPlayerRotation.h */,
+				656231AA1FC677630027D030 /* UIViewController+AQPlayerRotation.m */,
+				656231AC1FC699720027D030 /* AQLoadingView.h */,
+				656231AD1FC699720027D030 /* AQLoadingView.m */,
+				656231AF1FC699C90027D030 /* AQSlider.h */,
+				656231B01FC699C90027D030 /* AQSlider.m */,
+				656231B21FC6C8850027D030 /* AQPlayerMaskView.h */,
+				656231B31FC6C8850027D030 /* AQPlayerMaskView.m */,
+				656231B51FC6C8D20027D030 /* Resource */,
 			);
 			path = AQAVPlayer;
 			sourceTree = SOURCE_ROOT;
+		};
+		656231B51FC6C8D20027D030 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				656231B61FC6C8E70027D030 /* AQPlayer.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -253,6 +294,7 @@
 			files = (
 				6533B6B91FC5755A0036D203 /* LaunchScreen.storyboard in Resources */,
 				6533B6B61FC5755A0036D203 /* Assets.xcassets in Resources */,
+				656231B71FC6C8E70027D030 /* AQPlayer.bundle in Resources */,
 				6533B6B41FC5755A0036D203 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,9 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656231B11FC699C90027D030 /* AQSlider.m in Sources */,
 				6533B6B11FC5755A0036D203 /* ViewController.m in Sources */,
 				6533B6BC1FC5755A0036D203 /* main.m in Sources */,
 				6533B6AE1FC5755A0036D203 /* AppDelegate.m in Sources */,
+				656231AB1FC677630027D030 /* UIViewController+AQPlayerRotation.m in Sources */,
+				656231A51FC6771A0027D030 /* UINavigationController+AQPlayerRotation.m in Sources */,
+				656231AE1FC699720027D030 /* AQLoadingView.m in Sources */,
+				656231B41FC6C8850027D030 /* AQPlayerMaskView.m in Sources */,
+				656231A81FC6773D0027D030 /* UITabBarController+AQPlayerRotation.m in Sources */,
 				6533B6E11FC5756D0036D203 /* AQPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +494,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AQAVPlayerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kl.AQAVPlayerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,6 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AQAVPlayerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kl.AQAVPlayerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
