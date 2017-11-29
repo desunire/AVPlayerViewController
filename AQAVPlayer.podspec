@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AQAVPlayer"
-  s.version      = "0.0.3"
+  s.version      = "1.0.0"
   s.summary      = "AQAVPlayer Use"
 
   # This description is used to generate tags and improve search results.
@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "6.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -103,8 +103,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resource  = "AQAVPlayerViewController/AQAVPlayer/Resource/AQPlayer.bundle"
+  # s.resources = "AQAVPlayerViewController/AQAVPlayer/Resource/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
